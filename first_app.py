@@ -6,9 +6,9 @@ import re
 
 
 st.write("""
-# DNA Nucleotide Count Web App
+# Nucleotide Sequence Analyzer
 
-This app counts the nucleotide composition of query DNA!
+This app analyzes the nucleotide composition of query sequence!
 
 ***
 """)

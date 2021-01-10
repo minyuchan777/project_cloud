@@ -1,0 +1,9 @@
+Flask==1.1.2
+gunicorn==20.0.4
+webapp2~=2.5.2
+streamlit~=0.73.1
+altair~=4.1.0
+pandas~=1.2.0
+Pillow~=8.0.1
+pip~=20.3.3
+setuptools~=51.1.1

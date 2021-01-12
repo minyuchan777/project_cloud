@@ -1,4 +1,4 @@
-FROM python:3.7.8-slim
+FROM python:3.7
 
 WORKDIR /streamlit-project
 
@@ -10,4 +10,4 @@ EXPOSE 8080
 
 COPY . /streamlit-project
 
-CMD streamlit run --server.port 8080 --server.enableCORS false first_app.py
+CMD streamlit run first_app.py --server.port 8080

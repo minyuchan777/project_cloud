@@ -6,7 +6,7 @@ import re
 
 
 st.write("""
-# Nucleotide Sequence Analyzer
+# NUCAP
 
 This app analyzes the nucleotide composition of query sequence!
 

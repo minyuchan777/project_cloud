@@ -9,6 +9,7 @@ st.write("""
 # NUCAP
 
 This app analyzes the nucleotide composition of query sequence!
+Send your feedback to minyu@nucap.com
 
 ***
 """)

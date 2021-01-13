@@ -23,7 +23,7 @@ st.header('Enter DNA sequence')
 
 
 #sequence = st.sidebar.text_area("Sequence input", sequence_input, height=250)
-seq = st.text_area("Sequence input", height=250)
+seq = st.text_area("Sequence input", height=250).lower()
 
 st.write("""
 ***
@@ -44,7 +44,8 @@ def DNA_nucleotide_count(seq):
               ('A', seq.count('a')),
               ('T', seq.count('t')),
               ('G', seq.count('g')),
-              ('C', seq.count('c'))
+              ('C', seq.count('c')),
+              ('U', seq.count('u'))
               ])
     return d
 
@@ -62,6 +63,7 @@ st.write('There are ' + str(X['A']) + ' adenine (A)')
 st.write('There are ' + str(X['T']) + ' thymine (T)')
 st.write('There are ' + str(X['C']) + ' cytosine (C)')
 st.write('There are ' + str(X['G']) + ' guanine (G)')
+st.write('There are ' + str(X['U']) + ' uracil (U)')
 
 ### 3. Display DataFrame
 st.subheader('3. Display DataFrame')

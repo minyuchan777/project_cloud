@@ -64,6 +64,7 @@ st.write('There are ' + str(X['T']) + ' thymine (T)')
 st.write('There are ' + str(X['C']) + ' cytosine (C)')
 st.write('There are ' + str(X['G']) + ' guanine (G)')
 st.write('There are ' + str(X['U']) + ' uracil (U)')
+st.write('The GC content of the gene is ' + (((str(X['G']) + str(X['C']))/(str(X['A']) + str(X['T'] + str(X['C']) + str(X['G'])))*100) + '%')
 
 ### 3. Display DataFrame
 st.subheader('3. Display DataFrame')

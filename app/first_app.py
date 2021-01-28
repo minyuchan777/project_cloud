@@ -67,7 +67,7 @@ st.write('There are ' + str(X['U']) + ' uracil (U)')
 st.write('The GC content of the gene is ' + (((str(X['G']) + str(X['C']))/(str(X['A']) + str(X['T'] + str(X['C']) + str(X['G'])))*100) + '%')
 
 ### 3. Display DataFrame
-st.subheader('3. Display DataFrame')
+st.write('3. Display DataFrame')
 df = pd.DataFrame.from_dict(X, orient='index')
 df = df.rename({0: 'count'}, axis='columns')
 df.reset_index(inplace=True)
